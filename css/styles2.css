@@ -51,7 +51,7 @@ nav ul li{
 }
 
 .main-container {
-    max-width: 1440px;
+	max-width: 1440px;
     padding: 2em 3em;
     box-shadow: 10px 10px 5px #888888;
     overflow: auto;
@@ -59,6 +59,7 @@ nav ul li{
 
 .main-container aside, .main-container main{
     float: center;
+	
 }
 
 aside{
@@ -82,18 +83,17 @@ main article img.hero{
     margin-right: auto;
 }
 .imageGroup {
-    display: flex;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-}
-.imageGroup div {
-    display: flex;
+	display: flex;
     justify-content: space-between;
     text-align: center;
     image-orientation: center;
     margin-left: 150px;
     margin-right: 150px;
+}
+.imageGroup div {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .imageGroup div img {
     width: 100%;
